@@ -8,7 +8,7 @@ import ioc.service.CalService;
 public class TestSpring {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		
+//		Ëæ±ã¸Ä¸Ä
         CalService service = (CalService) context.getBean("cal");
         service.doSomeService();
         
